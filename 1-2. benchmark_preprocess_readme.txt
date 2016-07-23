@@ -1,0 +1,20 @@
+print("Chargement du signal d'entrainement...")
+filename = "train_filtered/filtered_"+str(subject)+".npz"
+datas = np.load(filename)
+feattr = datas['arr_0']
+labels = datas['arr_1']
+print("Done")
+
+print("Chargement du signal de test...")
+filename = "test_filtered/filtered_"+str(subject)+".npz"
+datas = np.load(filename)
+featte = datas['arr_0']
+ids = datas['arr_1']
+print("Done")
+
+feattr = signal d'entrainement filtré (avec passe bande + CSP)
+labels = les labels associés
+
+featte = signal de test filtré (avec passe bande + CSP)
+ids = contient l'id de chaque signal (indiquant par exemple le numero du test et du sujet), utile juste pour l'export à la fin
+
