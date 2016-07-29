@@ -8,10 +8,11 @@ Code and results of my June 2016 L3 internship at Télécom Bretagne.
 Results:
 
 Results forLogistic Regression
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+| sssss |   |   |   |   |
+|-------|---|---|---|---|
+|       |   |   |   |   |
+|       |   |   |   |   |
+|       |   |   |   |   |
 
 Logistic Regression with a training size for 1% to 5%:  
 ![Logistic Regression](/results/results_LR.png)
